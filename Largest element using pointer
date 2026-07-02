@@ -10,7 +10,7 @@ int main() {
     cin >> arr[i];
     int *ptr = arr, max = *arr;
     for(int i = 1; i < n; i++) {
-        if(*(ptr + i) > max)
+    if(*(ptr + i) > max)
     max = *(ptr + i);
     }
     cout << "Largest element: " << max << endl;
